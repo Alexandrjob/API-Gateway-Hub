@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationAPI", "src\WebApplicationAPI\WebApplicationAPI.csproj", "{00F72CCB-1513-4ED2-BB42-962EBE5915AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure\Infrastructure.csproj", "{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01E9117D-6715-4845-87EE-80689BED5B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F72CCB-1513-4ED2-BB42-962EBE5915AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F72CCB-1513-4ED2-BB42-962EBE5915AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F72CCB-1513-4ED2-BB42-962EBE5915AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F72CCB-1513-4ED2-BB42-962EBE5915AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF341B2B-1C0B-42D0-9B92-8311FB3A58DE} = {01E9117D-6715-4845-87EE-80689BED5B5B}
+		{00F72CCB-1513-4ED2-BB42-962EBE5915AB} = {01E9117D-6715-4845-87EE-80689BED5B5B}
+	EndGlobalSection
+EndGlobal
